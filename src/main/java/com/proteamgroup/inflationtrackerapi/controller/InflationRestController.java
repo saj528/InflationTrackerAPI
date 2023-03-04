@@ -1,4 +1,4 @@
-package com.proteamgroup.inflationtrackerapi;
+package com.proteamgroup.inflationtrackerapi.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 

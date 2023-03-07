@@ -60,7 +60,7 @@ public class SecurityConfiguration{
         	.requestMatchers("/welcome","/index","/register").permitAll()
         	/* Restricted pages only registered users */
         	.requestMatchers("/dashboard").hasAnyRole("USER")
-        	/* Only for admins*/
+        	/* Only for admins */
         	.requestMatchers("/adminpanel" ).hasRole("ADMIN")
         	.anyRequest()
         .authenticated();
